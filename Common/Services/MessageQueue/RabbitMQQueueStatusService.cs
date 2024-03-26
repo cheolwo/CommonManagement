@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 
-namespace Common.GateWay
+namespace Common.Services.MessageQueue
 {
     public interface IRabbitMQQueueStatusService
     {

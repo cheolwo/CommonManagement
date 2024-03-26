@@ -1,6 +1,7 @@
 ﻿using Common.DTO;
 using Common.Extensions;
 using Common.ForCommand;
+using Common.Services.MessageQueue;
 using MediatR;
 using Microsoft.AspNetCore.Hosting;
 
