@@ -31,11 +31,6 @@ namespace FrontCommon.Actor
         {
         }
     }
-    public class ActorContextOptions
-    {
-        public bool IsWeb { get; set; }
-    }
-    public class ActorQueryContextOptions : ActorContextOptions { }
     public interface IDtoConfiguration<TDto> where TDto : class
     {
     }
@@ -49,11 +44,7 @@ namespace FrontCommon.Actor
     }
     public abstract class ActorContext
     {
-        protected ActorContextOptions _options { get; }
-        public ActorContext(ActorContextOptions options)
-        {
-            _options = options;
-        }
+
     }
     public class ServerBaseRouteInfo
     {

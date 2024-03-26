@@ -7,6 +7,7 @@ using Common.Model;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Common.DTO.Interface;
+using Common.Services.MessageQueue;
 
 namespace Common.CommandServer
 {

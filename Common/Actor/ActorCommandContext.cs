@@ -6,8 +6,7 @@ namespace FrontCommon.Actor
     public class ActorCommandContext : ActorContext
     {
         protected readonly DtoCommandBuilder dtoCommandBuilder = new();
-        protected ActorCommandContext(ActorContextOptions options)
-            :base(options)
+        protected ActorCommandContext()
         {
             OnModelCreating(dtoCommandBuilder);
         }

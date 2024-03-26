@@ -5,7 +5,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Common.APIService
+namespace Common.Actor.APIService
 {
     public interface IJwtTokenAPIService
     {

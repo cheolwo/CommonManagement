@@ -10,7 +10,8 @@ namespace Common.Actor.Builder
         }
         public DtoTypeCommandBuilder<TDto> Set<TDto>() where TDto : class
         {
-            return new DtoTypeCommandBuilder<TDto>(_configurations.ContainsKey(typeof(TDto)) ? (IDtoTypeCommandConfiguration<TDto>)_configurations[typeof(TDto)] : null);
+            return new DtoTypeCommandBuilder<TDto>(_configurations.ContainsKey(typeof(TDto)) ? 
+                (IDtoTypeCommandConfiguration<TDto>)_configurations[typeof(TDto)] : null);
         }
     }
 }

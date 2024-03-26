@@ -1,9 +1,10 @@
 ﻿using Common.Extensions;
 using Common.ForCommand;
+using Common.GateWay;
 using Microsoft.Extensions.Configuration;
 using Quartz.Impl.AdoJobStore.Common;
 
-namespace Common.GateWay
+namespace Common.Services.MessageQueue
 {
     public interface IQueSelectedService
     {
@@ -45,7 +46,7 @@ namespace Common.GateWay
 
         public string GetOptimalQueueForEnque<T>(string provider, List<Server> enqueServers, OptimalQueOptions options)
         {
-            foreach (Server server in enqueServers) 
+            foreach (Server server in enqueServers)
             {
                 var queName = provider.CreateQueueName<T>(server.Url);
                 var count = _rabbitMQQueueStatusService.GetMessageCount(queName);
@@ -74,7 +75,7 @@ namespace Common.GateWay
         {
             foreach (Server server in dequeServers)
             {
-                if(server.Url == null) { continue; }
+                if (server.Url == null) { continue; }
                 var queName = server.Url.CreateQueueName<T>(consumer);
                 var count = _rabbitMQQueueStatusService.GetMessageCount(queName);
                 if (count > 0)

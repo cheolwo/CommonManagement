@@ -38,7 +38,8 @@ namespace Common.Actor.Builder
             return this;
         }
 
-        public DtoTypeCommandBuilder<TDto> ApplyConfiguration(IDtoTypeCommandConfiguration<TDto> configuration)
+        public DtoTypeCommandBuilder<TDto> ApplyConfiguration(
+            IDtoTypeCommandConfiguration<TDto> configuration)
         {
             configuration.Configure(this);
             return this;
@@ -182,68 +183,5 @@ namespace Common.Actor.Builder
 
             throw new Exception("No serve base route available.");
         }
-
-        private async Task SendRequestToApiGateway(HttpClient httpClient, string route, HttpContent httpContent, HttpMethod httpMethod)
-        {
-            // API Gateway로 요청을 보내는 로직을 구현
-            // 필요한 경우 인증 토큰 등을 추가하고 요청을 보낸 후 처리
-            var request = new HttpRequestMessage(httpMethod, route);
-            if (httpContent != null)
-            {
-                request.Content = httpContent;
-            }
-
-            var response = await httpClient.SendAsync(request);
-            response.EnsureSuccessStatusCode();
-        }
-
-        private async Task SendRequestToBusinessServer(HttpClient httpClient, string route, HttpContent httpContent, HttpMethod httpMethod)
-        {
-            // 비즈니스 처리 서버로 직접 요청을 보내는 로직을 구현
-            // 필요한 경우 인증 토큰 등을 추가하고 요청을 보낸 후 처리
-            var request = new HttpRequestMessage(httpMethod, route);
-            if (httpContent != null)
-            {
-                request.Content = httpContent;
-            }
-
-            var response = await httpClient.SendAsync(request);
-            response.EnsureSuccessStatusCode();
-        }
-
-        private async Task<T> SendRequestToApiGateway<T>(HttpClient httpClient, string route, HttpContent httpContent, HttpMethod httpMethod)
-        {
-            // API Gateway로 요청을 보내는 로직을 구현
-            // 필요한 경우 인증 토큰 등을 추가하고 요청을 보낸 후 처리
-            var request = new HttpRequestMessage(httpMethod, route);
-            if (httpContent != null)
-            {
-                request.Content = httpContent;
-            }
-
-            var response = await httpClient.SendAsync(request);
-            response.EnsureSuccessStatusCode();
-
-            var jsonResult = await response.Content.ReadAsStringAsync();
-            return JsonConvert.DeserializeObject<T>(jsonResult);
-        }
-
-        private async Task<T> SendRequestToBusinessServer<T>(HttpClient httpClient, string route, HttpContent httpContent, HttpMethod httpMethod)
-        {
-            // 비즈니스 처리 서버로 직접 요청을 보내는 로직을 구현
-            // 필요한 경우 인증 토큰 등을 추가하고 요청을 보낸 후 처리
-            var request = new HttpRequestMessage(httpMethod, route);
-            if (httpContent != null)
-            {
-                request.Content = httpContent;
-            }
-
-            var response = await httpClient.SendAsync(request);
-            response.EnsureSuccessStatusCode();
-
-            var jsonResult = await response.Content.ReadAsStringAsync();
-            return JsonConvert.DeserializeObject<T>(jsonResult);
-        }
-
     }
 }

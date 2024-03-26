@@ -1,7 +1,7 @@
 ﻿using Common.Actor;
 using FrontCommon.Actor;
 
-namespace Common.ViewService
+namespace Common.Services.ViewService
 {
     public interface IActorCommandViewService
     {
