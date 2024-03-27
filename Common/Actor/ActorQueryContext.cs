@@ -20,8 +20,7 @@ namespace Common.Actor
     public class ActorQueryContext : ActorContext
     {
         protected readonly DtoQueryBuilder dtoQueryBuilder = new();
-        protected ActorQueryContext(ActorContextOptions options)
-            : base(options)
+        protected ActorQueryContext()
         {
             OnModelCreating(dtoQueryBuilder);
         }

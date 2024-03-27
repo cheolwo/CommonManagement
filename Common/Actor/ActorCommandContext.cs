@@ -19,9 +19,5 @@ namespace FrontCommon.Actor
         {
             return dtoCommandBuilder.Set<TDto>();
         }
-        public bool IsWeb()
-        {
-            return _options.IsWeb;
-        }
     }
 }

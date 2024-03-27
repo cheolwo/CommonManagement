@@ -1,7 +1,10 @@
 ﻿using FrontCommon.Actor;
+using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Reflection;
+using System.Text;
 
 namespace Common.Actor.Builder.TypeBuilder
 {
@@ -24,6 +27,22 @@ namespace Common.Actor.Builder.TypeBuilder
                 response.EnsureSuccessStatusCode();
 
                 return await response.Content.ReadFromJsonAsync<List<TDto>>();
+            }
+        }
+        public async Task<HttpResponseMessage> GetAsync(string jwtToken, TDto dto)
+        {
+            var selectedRoute = GetSelectedBaseRoute();
+
+            using (var httpClient = new HttpClient())
+            {
+                httpClient.BaseAddress = new Uri(selectedRoute.BaseAddress);
+
+                // Set Authorization header with JWT token
+                httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", jwtToken);
+
+                var jsonContent = JsonConvert.SerializeObject(dto);
+                var httpContent = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+                return await httpClient.PostAsync(selectedRoute.Route, httpContent);
             }
         }
         private ServerBaseRouteInfo GetSelectedBaseRoute()
