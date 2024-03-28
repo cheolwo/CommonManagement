@@ -1,6 +1,6 @@
-﻿using Common.Actor;
-using Common.Actor.Builder;
+﻿using Common.Actor.Builder;
 using Common.Actor.Builder.TypeBuilder;
+using MediatR;
 
 namespace FrontCommon.Actor
 {
@@ -31,20 +31,14 @@ namespace FrontCommon.Actor
         {
         }
     }
-    public interface IDtoConfiguration<TDto> where TDto : class
-    {
-    }
-    public interface IDtoTypeCommandConfiguration<TDto> : IDtoConfiguration<TDto> where TDto : class
-    {
-        void Configure(DtoTypeCommandBuilder<TDto> builder);
-    }
-    public interface IDtoTypeQueryConfiguration<TDto> : IDtoConfiguration<TDto> where TDto : class
-    {
-        void Configure(DtoTypeQueryBuilder<TDto> builder);
-    }
-    public abstract class ActorContext
-    {
 
+    public interface ICommandConfiguration<T> where T : IRequest<bool>
+    {
+        void Configure(CommandTypeBuilder<T> builder);
+    }
+    public interface IQueryConfiguration<T> where T : IRequest<T>
+    {
+        void Configure(QueryTypeBuilder<T> builder);
     }
     public class ServerBaseRouteInfo
     {

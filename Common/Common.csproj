@@ -9,10 +9,13 @@
   <ItemGroup>
     <Compile Remove="Actor\Query\**" />
     <Compile Remove="App\**" />
+    <Compile Remove="ViewModel\**" />
     <EmbeddedResource Remove="Actor\Query\**" />
     <EmbeddedResource Remove="App\**" />
+    <EmbeddedResource Remove="ViewModel\**" />
     <None Remove="Actor\Query\**" />
     <None Remove="App\**" />
+    <None Remove="ViewModel\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,11 +36,11 @@
     <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
     <PackageReference Include="StackExchange.Redis" Version="2.7.33" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.4.1" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.8.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="CommandServer\Collector\" />
-    <Folder Include="ViewModel\" />
+    <Folder Include="Command\Handlr\" />
   </ItemGroup>
 
 </Project>
