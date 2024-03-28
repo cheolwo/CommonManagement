@@ -47,7 +47,7 @@ namespace Common.Command
         public ClientCommandService(ActorCommandContext actorCommandContext, DbContext dbContext, ILogger<ClientCommandService<T>> logger)
         {
             _actorCommandContext = actorCommandContext;
-            _dbContext = dbContext;
+            _dbContext = dbContext;     
             _logger = logger;
         }
         /// <summary>

@@ -4,16 +4,16 @@ using Microsoft.Extensions.Logging;
 
 namespace Common.Command
 {
-    public class CommandHandlr<TCommand> : IRequestHandler<TCommand, bool> where TCommand : IRequest<bool>
+    public class ClientCommandHandlr<TCommand> : IRequestHandler<TCommand, bool> where TCommand : IRequest<bool>
     {
         private readonly ICommandService<TCommand> _commandService;
         private readonly ITokenStorageService _tokenStorageService;
-        private readonly ILogger<CommandHandlr<TCommand>> _logger;
+        private readonly ILogger<ClientCommandHandlr<TCommand>> _logger;
         private readonly IErrorMessageBrokerService _errorMessageBrokerService;
 
-        public CommandHandlr(ICommandService<TCommand> commandService, 
+        public ClientCommandHandlr(ICommandService<TCommand> commandService, 
                              ITokenStorageService tokenStorageService, 
-                             ILogger<CommandHandlr<TCommand>> logger, 
+                             ILogger<ClientCommandHandlr<TCommand>> logger, 
                              IErrorMessageBrokerService errorMessageBrokerService)
         {
             _commandService = commandService;
