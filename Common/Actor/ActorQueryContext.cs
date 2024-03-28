@@ -1,34 +1,21 @@
 ﻿using Common.Actor.Builder;
 using Common.Actor.Builder.TypeBuilder;
 using FrontCommon.Actor;
-using System.Data.Common;
-using System.Linq.Expressions;
+using MediatR;
 
 namespace Common.Actor
 {
-    public class SortOption<TDto>
+    public class ActorQueryContext
     {
-        public Expression<Func<TDto>> KeySelector { get; set; }
-        public SortDirection Direction { get; set; }
-    }
-
-    public enum SortDirection
-    {
-        Ascending,
-        Descending
-    }
-    public class ActorQueryContext : ActorContext
-    {
-        protected readonly DtoQueryBuilder dtoQueryBuilder = new();
-        protected ActorQueryContext(ActorContextOptions options)
-            : base(options)
+        protected readonly QueryBuilder dtoQueryBuilder = new();
+        protected ActorQueryContext()
         {
             OnModelCreating(dtoQueryBuilder);
         }
-        protected virtual void OnModelCreating(DtoQueryBuilder dtoBuilder)
+        protected virtual void OnModelCreating(QueryBuilder dtoBuilder)
         {
         }
-        public DtoTypeQueryBuilder<TDto> Set<TDto>() where TDto : class
+        public QueryTypeBuilder<TDto> Set<TDto>() where TDto : IRequest<TDto>
         {
             return dtoQueryBuilder.Set<TDto>();
         }

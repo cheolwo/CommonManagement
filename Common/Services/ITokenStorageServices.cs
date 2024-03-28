@@ -1,3 +1,9 @@
+using Microsoft.Extensions.Configuration;
+using Microsoft.JSInterop;
+using System.Security.Cryptography;
+using System.Text;
+using Xamarin.Essentials;
+
 namespace Common.Services
 {
     public interface ITokenStorageService
@@ -19,7 +25,7 @@ namespace Common.Services
         public async Task SaveTokenAsync(string token)
         {
             byte[] encryptedToken = ProtectedData.Protect(
-                ncoding.UTF8.GetBytes(token), null, DataProtectionScope.CurrentUser);
+                Encoding.UTF8.GetBytes(token), null, DataProtectionScope.CurrentUser);
             await File.WriteAllBytesAsync(_tokenFilePath, encryptedToken);
         }
 

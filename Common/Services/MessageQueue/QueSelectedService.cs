@@ -1,8 +1,6 @@
 ﻿using Common.Extensions;
-using Common.ForCommand;
 using Common.GateWay;
 using Microsoft.Extensions.Configuration;
-using Quartz.Impl.AdoJobStore.Common;
 
 namespace Common.Services.MessageQueue
 {
