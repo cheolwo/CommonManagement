@@ -2,7 +2,6 @@
 using Common.DTO;
 using Common.ForCommand;
 using Common.GateWay;
-using Common.Model.Repository;
 using Common.Model;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;

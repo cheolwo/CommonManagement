@@ -4,7 +4,6 @@ using Common.Extensions;
 using Common.ForCommand;
 using Common.GateWay;
 using Common.Model;
-using Common.Model.Repository;
 using Common.Services.MessageQueue;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
