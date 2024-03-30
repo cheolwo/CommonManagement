@@ -1,23 +1,23 @@
 ﻿using Common.Actor.Builder;
-using FluentValidation.Results;
+using MediatR;
 
 namespace FrontCommon.Actor
 {
-    public class ActorCommandContext : ActorContext
+    public class ActorCommandContext
     {
-        protected readonly DtoCommandBuilder dtoCommandBuilder = new();
+        protected readonly CommandBuilder CommandBuilder = new();
         protected ActorCommandContext()
         {
-            OnModelCreating(dtoCommandBuilder);
+            OnModelCreating(CommandBuilder);
         }
 
-        protected virtual void OnModelCreating(DtoCommandBuilder dtoBuilder) 
+        protected virtual void OnModelCreating(CommandBuilder dtoBuilder) 
         {
            
         }
-        public DtoTypeCommandBuilder<TDto> Set<TDto>() where TDto : class
+        public CommandTypeBuilder<TDto> Set<TDto>() where TDto : class, IRequest<bool>
         {
-            return dtoCommandBuilder.Set<TDto>();
+            return CommandBuilder.Set<TDto>();
         }
     }
 }

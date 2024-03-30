@@ -84,29 +84,6 @@ namespace Common.Actor.Builder.TypeBuilder
 
             return await _httpClient.PostAsync(requestUri, httpContent);
         }
-        private ServerBaseRouteInfo GetSelectedBaseRoute()
-        {
-            var IsCqrs = IsApiGatewayCompatible();
-            if (IsCqrs)
-            {
-                // DTO에 CQRS 특성이 있고 활성화된 경우 API Gateway를 사용하는 서버 선택
-                var selectedRoute = ServerBaseRoutes.FirstOrDefault(route => route.UseApiGateway);
-                if (selectedRoute != null)
-                {
-                    return selectedRoute;
-                }
-            }
-
-            // CQRS 특성이 없거나 비활성화된 경우 비즈니스 서버 선택
-            var defaultRoute = ServerBaseRoutes.FirstOrDefault();
-            if (defaultRoute != null)
-            {
-                return defaultRoute;
-            }
-
-            throw new Exception("No serve base route available.");
-        }
-
         private bool IsApiGatewayCompatible()
         {
             var cqsAttribute = typeof(TDto).GetCustomAttribute<CQRSAttribute>();
