@@ -33,3 +33,12 @@ C:\Users\user\Desktop\CommonManagement\Common\obj\Debug\net8.0\Common.sourcelink
 C:\Users\user\Desktop\CommonManagement\Common\obj\Debug\net8.0\Common.dll
 C:\Users\user\Desktop\CommonManagement\Common\obj\Debug\net8.0\refint\Common.dll
 C:\Users\user\Desktop\CommonManagement\Common\obj\Debug\net8.0\Common.pdb
+C:\Users\power\OneDrive\Desktop\CommonManagement\Common\obj\Debug\net8.0\Common.csproj.AssemblyReference.cache
+C:\Users\power\OneDrive\Desktop\CommonManagement\Common\obj\Debug\net8.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\power\OneDrive\Desktop\CommonManagement\Common\obj\Debug\net8.0\Common.AssemblyInfoInputs.cache
+C:\Users\power\OneDrive\Desktop\CommonManagement\Common\obj\Debug\net8.0\Common.AssemblyInfo.cs
+C:\Users\power\OneDrive\Desktop\CommonManagement\Common\obj\Debug\net8.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\power\OneDrive\Desktop\CommonManagement\Common\obj\Debug\net8.0\Common.sourcelink.json
+C:\Users\power\OneDrive\Desktop\CommonManagement\Common\obj\Debug\net8.0\Common.dll
+C:\Users\power\OneDrive\Desktop\CommonManagement\Common\obj\Debug\net8.0\refint\Common.dll
+C:\Users\power\OneDrive\Desktop\CommonManagement\Common\obj\Debug\net8.0\Common.pdb
