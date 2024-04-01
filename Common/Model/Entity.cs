@@ -10,7 +10,7 @@ namespace Common.Model
     public class Entity
     {
         [Key]
-        public string Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid(); // 자동으로 고유한 ID 할당
         public string? Code { get; set; }
         public string? Name { get; set; }
         public string? FileUrlJson { get; set; } // JSON 직렬화된 문자열을 저장할 속성 추가
