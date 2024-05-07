@@ -3,6 +3,45 @@
   "WorkspaceRootPath": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{283F0502-65FA-4AAC-BB87-E3237229C326}|..\\..\\OrdererManagement\\OrderCommon\\\uC8FC\uBB38Common.csproj|c:\\users\\power\\onedrive\\desktop\\orderermanagement\\ordercommon\\command\\clientcommand\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9734E77-FF8F-4C3B-86A3-81466D9266AC}|Common.csproj|c:\\users\\power\\onedrive\\desktop\\commonmanagement\\common\\dto\\validator\\dtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9734E77-FF8F-4C3B-86A3-81466D9266AC}|Common.csproj|solutionrelative:dto\\validator\\dtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9734E77-FF8F-4C3B-86A3-81466D9266AC}|Common.csproj|c:\\users\\power\\onedrive\\desktop\\commonmanagement\\common\\model\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9734E77-FF8F-4C3B-86A3-81466D9266AC}|Common.csproj|solutionrelative:model\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9734E77-FF8F-4C3B-86A3-81466D9266AC}|Common.csproj|c:\\users\\power\\onedrive\\desktop\\commonmanagement\\common\\model\\entityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9734E77-FF8F-4C3B-86A3-81466D9266AC}|Common.csproj|solutionrelative:model\\entityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9734E77-FF8F-4C3B-86A3-81466D9266AC}|Common.csproj|c:\\users\\power\\onedrive\\desktop\\commonmanagement\\common\\model\\repository\\entityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9734E77-FF8F-4C3B-86A3-81466D9266AC}|Common.csproj|solutionrelative:model\\repository\\entityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9734E77-FF8F-4C3B-86A3-81466D9266AC}|Common.csproj|c:\\users\\power\\onedrive\\desktop\\commonmanagement\\common\\model\\irepoaitory\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9734E77-FF8F-4C3B-86A3-81466D9266AC}|Common.csproj|solutionrelative:model\\irepoaitory\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283F0502-65FA-4AAC-BB87-E3237229C326}|..\\..\\OrdererManagement\\OrderCommon\\\uC8FC\uBB38Common.csproj|c:\\users\\power\\onedrive\\desktop\\orderermanagement\\ordercommon\\dto\\validator\\\uC8FC\uBB38\uC790validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9734E77-FF8F-4C3B-86A3-81466D9266AC}|Common.csproj|c:\\users\\power\\onedrive\\desktop\\commonmanagement\\common\\dto\\cud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9734E77-FF8F-4C3B-86A3-81466D9266AC}|Common.csproj|solutionrelative:dto\\cud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283F0502-65FA-4AAC-BB87-E3237229C326}|..\\..\\OrdererManagement\\OrderCommon\\\uC8FC\uBB38Common.csproj|c:\\users\\power\\onedrive\\desktop\\orderermanagement\\ordercommon\\dto\\\uC8FC\uBB38\uC790dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283F0502-65FA-4AAC-BB87-E3237229C326}|..\\..\\OrdererManagement\\OrderCommon\\\uC8FC\uBB38Common.csproj|c:\\users\\power\\onedrive\\desktop\\orderermanagement\\ordercommon\\dto\\\uC8FC\uBB38\uC790\uD68C\uC6D0\uAC00\uC785dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{283F0502-65FA-4AAC-BB87-E3237229C326}|..\\..\\OrdererManagement\\OrderCommon\\\uC8FC\uBB38Common.csproj|c:\\users\\power\\onedrive\\desktop\\orderermanagement\\ordercommon\\dto\\\uC8FC\uBB38\uC790\uB85C\uADF8\uC778dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{283F0502-65FA-4AAC-BB87-E3237229C326}|..\\..\\OrdererManagement\\OrderCommon\\\uC8FC\uBB38Common.csproj|c:\\users\\power\\onedrive\\desktop\\orderermanagement\\ordercommon\\command\\gatewaycommand\\gatewaycomamndhandlr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -12,9 +51,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C9734E77-FF8F-4C3B-86A3-81466D9266AC}|Common.csproj|c:\\users\\power\\onedrive\\desktop\\commonmanagement\\common\\services\\messagequeue\\messagequeueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9734E77-FF8F-4C3B-86A3-81466D9266AC}|Common.csproj|solutionrelative:services\\messagequeue\\messagequeueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{283F0502-65FA-4AAC-BB87-E3237229C326}|..\\..\\OrdererManagement\\OrderCommon\\\uC8FC\uBB38Common.csproj|c:\\users\\power\\onedrive\\desktop\\orderermanagement\\ordercommon\\command\\clientcommand\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9734E77-FF8F-4C3B-86A3-81466D9266AC}|Common.csproj|c:\\users\\power\\onedrive\\desktop\\commonmanagement\\common\\command\\commandhandlr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -44,9 +80,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{283F0502-65FA-4AAC-BB87-E3237229C326}|..\\..\\OrdererManagement\\OrderCommon\\\uC8FC\uBB38Common.csproj|c:\\users\\power\\onedrive\\desktop\\orderermanagement\\ordercommon\\command\\clientcommand\\updateordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{283F0502-65FA-4AAC-BB87-E3237229C326}|..\\..\\OrdererManagement\\OrderCommon\\\uC8FC\uBB38Common.csproj|c:\\users\\power\\onedrive\\desktop\\orderermanagement\\ordercommon\\dto\\\uC8FC\uBB38\uC790dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,20 +88,137 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 155,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 285,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CommandHandlr.cs",
-              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Command\\CommandHandlr.cs",
-              "RelativeDocumentMoniker": "Command\\CommandHandlr.cs",
-              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Command\\CommandHandlr.cs",
-              "RelativeToolTip": "Command\\CommandHandlr.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAkAAAA",
+              "DocumentIndex": 2,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Model\\Entity.cs",
+              "RelativeDocumentMoniker": "Model\\Entity.cs",
+              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Model\\Entity.cs",
+              "RelativeToolTip": "Model\\Entity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:37:15.566Z",
+              "WhenOpened": "2024-03-31T23:28:03.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Model\\EntityRepository.cs",
+              "RelativeDocumentMoniker": "Model\\EntityRepository.cs",
+              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Model\\EntityRepository.cs",
+              "RelativeToolTip": "Model\\EntityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T23:28:02.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Model\\Repository\\EntityRepository.cs",
+              "RelativeDocumentMoniker": "Model\\Repository\\EntityRepository.cs",
+              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Model\\Repository\\EntityRepository.cs",
+              "RelativeToolTip": "Model\\Repository\\EntityRepository.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAwwE4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T23:27:43.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\DTO\\Validator\\DtoValidator.cs",
+              "RelativeDocumentMoniker": "DTO\\Validator\\DtoValidator.cs",
+              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\DTO\\Validator\\DtoValidator.cs",
+              "RelativeToolTip": "DTO\\Validator\\DtoValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T23:22:27.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateOrderCommand.cs",
+              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\CreateOrderCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\CreateOrderCommand.cs",
+              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\CreateOrderCommand.cs",
+              "RelativeToolTip": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\CreateOrderCommand.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAABCwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T08:35:10.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Model\\IRepoaitory\\IEntityRepository.cs",
+              "RelativeDocumentMoniker": "Model\\IRepoaitory\\IEntityRepository.cs",
+              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Model\\IRepoaitory\\IEntityRepository.cs",
+              "RelativeToolTip": "Model\\IRepoaitory\\IEntityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T23:27:29.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "\uC8FC\uBB38\uC790Validator.cs",
+              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\DTO\\Validator\\\uC8FC\uBB38\uC790Validator.cs",
+              "RelativeDocumentMoniker": "..\\..\\OrdererManagement\\OrderCommon\\DTO\\Validator\\\uC8FC\uBB38\uC790Validator.cs",
+              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\DTO\\Validator\\\uC8FC\uBB38\uC790Validator.cs",
+              "RelativeToolTip": "..\\..\\OrdererManagement\\OrderCommon\\DTO\\Validator\\\uC8FC\uBB38\uC790Validator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T23:26:50.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "\uC8FC\uBB38\uC790\uD68C\uC6D0\uAC00\uC785DTO.cs",
+              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\DTO\\\uC8FC\uBB38\uC790\uD68C\uC6D0\uAC00\uC785DTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\OrdererManagement\\OrderCommon\\DTO\\\uC8FC\uBB38\uC790\uD68C\uC6D0\uAC00\uC785DTO.cs",
+              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\DTO\\\uC8FC\uBB38\uC790\uD68C\uC6D0\uAC00\uC785DTO.cs",
+              "RelativeToolTip": "..\\..\\OrdererManagement\\OrderCommon\\DTO\\\uC8FC\uBB38\uC790\uD68C\uC6D0\uAC00\uC785DTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T23:23:24.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "\uC8FC\uBB38\uC790\uB85C\uADF8\uC778DTO.cs",
+              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\DTO\\\uC8FC\uBB38\uC790\uB85C\uADF8\uC778DTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\OrdererManagement\\OrderCommon\\DTO\\\uC8FC\uBB38\uC790\uB85C\uADF8\uC778DTO.cs",
+              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\DTO\\\uC8FC\uBB38\uC790\uB85C\uADF8\uC778DTO.cs",
+              "RelativeToolTip": "..\\..\\OrdererManagement\\OrderCommon\\DTO\\\uC8FC\uBB38\uC790\uB85C\uADF8\uC778DTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T23:23:22.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CUD.cs",
+              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\DTO\\CUD.cs",
+              "RelativeDocumentMoniker": "DTO\\CUD.cs",
+              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\DTO\\CUD.cs",
+              "RelativeToolTip": "DTO\\CUD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T23:13:44.601Z",
               "EditorCaption": ""
             },
             {
@@ -77,20 +227,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateOrderCommand.cs",
-              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\CreateOrderCommand.cs",
-              "RelativeDocumentMoniker": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\CreateOrderCommand.cs",
-              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\CreateOrderCommand.cs",
-              "RelativeToolTip": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\CreateOrderCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAjAAAA",
+              "DocumentIndex": 8,
+              "Title": "\uC8FC\uBB38\uC790DTO.cs",
+              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\DTO\\\uC8FC\uBB38\uC790DTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\OrdererManagement\\OrderCommon\\DTO\\\uC8FC\uBB38\uC790DTO.cs",
+              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\DTO\\\uC8FC\uBB38\uC790DTO.cs",
+              "RelativeToolTip": "..\\..\\OrdererManagement\\OrderCommon\\DTO\\\uC8FC\uBB38\uC790DTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:35:10.251Z",
+              "WhenOpened": "2024-03-28T08:31:37.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "ClientCommandService.cs",
               "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\DTO\\ClientCommandService.cs",
               "RelativeDocumentMoniker": "DTO\\ClientCommandService.cs",
@@ -98,12 +248,23 @@
               "RelativeToolTip": "DTO\\ClientCommandService.cs",
               "ViewState": "AQIAABsAAAAAAAAAAABCwCsAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:45:13.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T08:45:13.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
+              "Title": "CommandHandlr.cs",
+              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Command\\CommandHandlr.cs",
+              "RelativeDocumentMoniker": "Command\\CommandHandlr.cs",
+              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Command\\CommandHandlr.cs",
+              "RelativeToolTip": "Command\\CommandHandlr.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T08:37:15.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "AddToCartCommand.cs",
               "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\AddToCartCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\AddToCartCommand.cs",
@@ -111,12 +272,11 @@
               "RelativeToolTip": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\AddToCartCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:36:37.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T08:36:37.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "AddReviewCommand.cs",
               "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\AddReviewCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\AddReviewCommand.cs",
@@ -124,12 +284,11 @@
               "RelativeToolTip": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\AddReviewCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:36:22.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T08:36:22.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "RemoveFromCartCommand.cs",
               "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\RemoveFromCartCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\RemoveFromCartCommand.cs",
@@ -137,12 +296,11 @@
               "RelativeToolTip": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\RemoveFromCartCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:36:46.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T08:36:46.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "CancleOrderCommand.cs",
               "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\CancleOrderCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\CancleOrderCommand.cs",
@@ -150,12 +308,11 @@
               "RelativeToolTip": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\CancleOrderCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:35:52.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T08:35:52.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "GetProductDetailsCommand.cs",
               "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\GetProductDetailsCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\GetProductDetailsCommand.cs",
@@ -163,12 +320,11 @@
               "RelativeToolTip": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\GetProductDetailsCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:36:29.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T08:36:29.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "GetOrderStatusCommand.cs",
               "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\GetOrderStatusCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\GetOrderStatusCommand.cs",
@@ -176,12 +332,11 @@
               "RelativeToolTip": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\GetOrderStatusCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:36:08.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T08:36:08.449Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "UpdateOrderCommand.cs",
               "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\UpdateOrderCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\UpdateOrderCommand.cs",
@@ -189,57 +344,17 @@
               "RelativeToolTip": "..\\..\\OrdererManagement\\OrderCommon\\Command\\ClientCommand\\UpdateOrderCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:36:01.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "\uC8FC\uBB38\uC790DTO.cs",
-              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\DTO\\\uC8FC\uBB38\uC790DTO.cs",
-              "RelativeDocumentMoniker": "..\\..\\OrdererManagement\\OrderCommon\\DTO\\\uC8FC\uBB38\uC790DTO.cs",
-              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\DTO\\\uC8FC\uBB38\uC790DTO.cs",
-              "RelativeToolTip": "..\\..\\OrdererManagement\\OrderCommon\\DTO\\\uC8FC\uBB38\uC790DTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:31:37.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T08:36:01.069Z"
             }
           ]
         },
         {
-          "DockedWidth": 245,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 115,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RabbitMQQueueStatusService.cs",
-              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Services\\MessageQueue\\RabbitMQQueueStatusService.cs",
-              "RelativeDocumentMoniker": "Services\\MessageQueue\\RabbitMQQueueStatusService.cs",
-              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Services\\MessageQueue\\RabbitMQQueueStatusService.cs",
-              "RelativeToolTip": "Services\\MessageQueue\\RabbitMQQueueStatusService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA+wBwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:49:59.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MessageQueueService.cs",
-              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Services\\MessageQueue\\MessageQueueService.cs",
-              "RelativeDocumentMoniker": "Services\\MessageQueue\\MessageQueueService.cs",
-              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Services\\MessageQueue\\MessageQueueService.cs",
-              "RelativeToolTip": "Services\\MessageQueue\\MessageQueueService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:49:57.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "GateWayComamndHandlr.cs",
               "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\OrdererManagement\\OrderCommon\\Command\\GateWayCommand\\GateWayComamndHandlr.cs",
               "RelativeDocumentMoniker": "..\\..\\OrdererManagement\\OrderCommon\\Command\\GateWayCommand\\GateWayComamndHandlr.cs",
@@ -249,6 +364,30 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T08:41:27.111Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MessageQueueService.cs",
+              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Services\\MessageQueue\\MessageQueueService.cs",
+              "RelativeDocumentMoniker": "Services\\MessageQueue\\MessageQueueService.cs",
+              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Services\\MessageQueue\\MessageQueueService.cs",
+              "RelativeToolTip": "Services\\MessageQueue\\MessageQueueService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T08:49:57.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RabbitMQQueueStatusService.cs",
+              "DocumentMoniker": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Services\\MessageQueue\\RabbitMQQueueStatusService.cs",
+              "RelativeDocumentMoniker": "Services\\MessageQueue\\RabbitMQQueueStatusService.cs",
+              "ToolTip": "C:\\Users\\power\\OneDrive\\Desktop\\CommonManagement\\Common\\Services\\MessageQueue\\RabbitMQQueueStatusService.cs",
+              "RelativeToolTip": "Services\\MessageQueue\\RabbitMQQueueStatusService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA+wBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T08:49:59.719Z"
             }
           ]
         }

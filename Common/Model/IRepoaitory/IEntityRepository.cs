@@ -20,47 +20,4 @@ namespace Common.Model.Repository
         // 로컬 저장소에서 데이터를 삭제하는 메서드
         Task DeleteAsync(T entity);
     }
-    public interface IEntityQueryRepository<TEntity> : IQueryRepository<TEntity>
-        where TEntity : Entity
-    {
-        Task<TEntity?> GetByCode(string code);
-        Task<TEntity?> GetByName(string name);
-    }
-    public interface ICommodityQueryRepository<TEntity> : IEntityQueryRepository<TEntity>
-        where TEntity : Commodity
-    {
-        Task<List<TEntity>> GetByQuantityGreaterThanAsync(string quantity);
-        Task<List<TEntity>> GetByQuantityLessThanAsync(string quantity);
-        Task<List<TEntity>> GetByQuantityBetweenAsync(string minValue, string maxValue);
-
-    }
-    public interface ICenterQueryRepository<TEntity> : IEntityQueryRepository<TEntity>
-        where TEntity : Center
-    {
-        Task<TEntity?> GetByPhoneNumber(string phoneNumber);
-        Task<TEntity?> GetByFaxNumber(string faxNumber);
-        Task<TEntity?> GetByEmail(string email);
-        Task<TEntity?> GetByAddress(string adress);
-    }
-    public interface IEntityCommandRepository<TEntity> : ICommandRepository<TEntity> where TEntity : class
-    {
-        Task SaveChangesAsync();
-    }
-    public interface IStatusCommandRepository<TEntity> : IEntityCommandRepository<TEntity>
-            where TEntity : Status
-    {
-
-    }
-    public interface ICenterCommandRepository<TEntity> : IEntityCommandRepository<TEntity> where TEntity : Center
-    {
-
-    }
-    public interface ICommodityCommandRepository<TEntity> : IEntityCommandRepository<TEntity> where TEntity : Commodity
-    {
-
-    }
-    public interface IStatusQueryRepository<TEntity> : IEntityCommandRepository<TEntity> where TEntity : Status
-    {
-
-    }
 }
