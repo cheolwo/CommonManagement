@@ -26,23 +26,22 @@ namespace Common.Services
         {
             var json = JsonConvert.SerializeObject(Command);
             var typeName = Command.GetType().AssemblyQualifiedName;
-            var timeStamp = DateTime.UtcNow.ToString("o"); // ISO 8601 형식으로 시간을 문자열로 변환
+            var timeStamp = DateTime.UtcNow;
 
-            var errorMessageEntry = new ErrorMessageEntry
+            var errorMessageEntry = new Message
             {
                 JsonData = json,
                 TypeName = typeName,
-                ErrorMessage = errorMessage,
                 TimeStamp = timeStamp
             };
 
-            _dbContext.ErrorMessages.Add(errorMessageEntry);
+            _dbContext.Messages.Add(errorMessageEntry);
             await _dbContext.SaveChangesAsync();
         }
         // 저장된 실패한 Command 처리
         public async Task RetryFailedCommandsAsync()
         {
-            var errorMessages = await _dbContext.ErrorMessages.ToListAsync();
+            var errorMessages = await _dbContext.Messages.ToListAsync();
 
             foreach (var errorMessage in errorMessages)
             {
@@ -55,7 +54,7 @@ namespace Common.Services
                 {
                     await _mediator.Send(request);
                     // 성공적으로 처리된 경우, 에러 메시지 엔트리 삭제
-                    _dbContext.ErrorMessages.Remove(errorMessage);
+                    _dbContext.Messages.Remove(errorMessage);
                 }
                 else
                 {

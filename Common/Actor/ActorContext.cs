@@ -1,5 +1,4 @@
 ﻿using Common.Actor.Builder;
-using Common.Actor.Builder.TypeBuilder;
 using MediatR;
 
 namespace FrontCommon.Actor
@@ -27,7 +26,7 @@ namespace FrontCommon.Actor
         {
             IsEnabled = isEnabled;
         }
-        public DistributedAttribute() 
+        public DistributedAttribute()
         {
         }
     }
@@ -35,10 +34,6 @@ namespace FrontCommon.Actor
     public interface ICommandConfiguration<T> where T : IRequest<bool>
     {
         void Configure(CommandTypeBuilder<T> builder);
-    }
-    public interface IQueryConfiguration<T> where T : IRequest<T>
-    {
-        void Configure(QueryTypeBuilder<T> builder);
     }
     public class ServerBaseRouteInfo
     {

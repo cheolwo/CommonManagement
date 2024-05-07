@@ -1,10 +1,7 @@
 ﻿using Common.Model;
 using FrontCommon.Actor;
 using MediatR;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
-using System.Threading;
 
 namespace Common.Command
 {
@@ -34,7 +31,7 @@ namespace Common.Command
         /// </summary>
         /// <param name="jwtToken">JWT 인증 토큰</param>
         /// <param name="id">삭제할 엔티티의 ID</param>
-        Task DeleteAsync(string jwtToken, T command, CancellationToken cancellationToken);
+        Task DeleteAsync(string jwtToken, string id, T command, CancellationToken cancellationToken);
     }
     /// <summary>
     /// 클라이언트 측에서 CRUD 작업을 담당하는 서비스 클래스
@@ -131,7 +128,7 @@ namespace Common.Command
             }
         }
 
-        public async Task DeleteAsync(string jwtToken, T command, CancellationToken cancellationToken)
+        public async Task DeleteAsync(string jwtToken, string id, T command, CancellationToken cancellationToken)
         {
             using var transaction = await _commandContext.Database.BeginTransactionAsync(cancellationToken);
             try
@@ -144,7 +141,7 @@ namespace Common.Command
                 await _commandContext.SaveChangesAsync(cancellationToken);
 
                 // HTTP 통신으로 서버에 삭제 명령 전송
-                var deleteResponse = await _actorCommandContext.Set<T>().DeleteAsync(id.ToString(), jwtToken);
+                var deleteResponse = await _actorCommandContext.Set<T>().DeleteAsync(id, jwtToken);
                 if (!deleteResponse.IsSuccessStatusCode)
                 {
                     _logger.LogError("서버 전송 실패. 상태 코드: {StatusCode}", deleteResponse.StatusCode);

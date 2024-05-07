@@ -33,3 +33,7 @@ C:\Users\user\Desktop\CommonManagement\Common\obj\Debug\net8.0\Common.sourcelink
 C:\Users\user\Desktop\CommonManagement\Common\obj\Debug\net8.0\Common.dll
 C:\Users\user\Desktop\CommonManagement\Common\obj\Debug\net8.0\refint\Common.dll
 C:\Users\user\Desktop\CommonManagement\Common\obj\Debug\net8.0\Common.pdb
+C:\Users\user\Desktop\CommonManagement\Common\bin\Debug\net8.0\Common.deps.json
+C:\Users\user\Desktop\CommonManagement\Common\bin\Debug\net8.0\Common.dll
+C:\Users\user\Desktop\CommonManagement\Common\bin\Debug\net8.0\Common.pdb
+C:\Users\user\Desktop\CommonManagement\Common\obj\Debug\net8.0\ref\Common.dll

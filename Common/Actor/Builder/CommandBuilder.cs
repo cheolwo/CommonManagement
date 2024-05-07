@@ -10,7 +10,7 @@ namespace Common.Actor.Builder
         {
             _configurations = [];
         }
-        public void ApplyConfiguration<TCommand>(ICommandConfiguration<T> configuration) 
+        public void ApplyConfiguration<TCommand>(ICommandConfiguration<TCommand> configuration) 
                                     where TCommand : IRequest<bool>
         {
             _configurations[typeof(TCommand)] = configuration;

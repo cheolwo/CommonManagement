@@ -19,6 +19,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="ViewModel\BaseViewModel.cs" />
+    <Compile Include="ViewModel\FileUploadModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="Azure.Storage.Blobs" Version="12.19.1" />
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />

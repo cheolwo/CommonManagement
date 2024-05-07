@@ -1,5 +1,4 @@
 ﻿using AutoMapper.Configuration.Annotations;
-using Common.Cache;
 using Newtonsoft.Json;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -37,10 +36,9 @@ namespace Common.Model
             get => JsonConvert.DeserializeObject<List<string>>(FileUrlJson);
             set => FileUrlJson = JsonConvert.SerializeObject(value);
         }
-        //public List<문의> 문의들 { get; set; }
     }
     [NotMapped]
-    public class Center : Entity, IStorableInCenterMemory
+    public class Center : Entity
     {
         public string? UserId { get; set; }
         public string? FaxNumber { get; set; }
@@ -48,19 +46,15 @@ namespace Common.Model
         public string? Email { get; set; }
         public string? Address { get; set; }    
         public string? ZipCode { get; set; }
-        [Ignore]
-        public Dictionary<string, string> Commodities { get; set; }
-        [Ignore]
-        public Dictionary<string, string> Statuses { get; set; }
 
         public string GetCenterId()
         {
-            return Id;
+            return Id.ToString();
         }
     }
     // 상품에 대한 공통정보
     [NotMapped]
-    public class Commodity : Entity, IStorableInCenterMemory
+    public class Commodity : Entity
     {
         public string? Quantity { get; set; }
         [Ignore]
@@ -72,7 +66,7 @@ namespace Common.Model
         }
     }
     [NotMapped]
-    public class Status : Entity, IStorableInCenterMemory
+    public class Status : Entity
     {
         public string? Quantity { get; set; }
         [Ignore]
