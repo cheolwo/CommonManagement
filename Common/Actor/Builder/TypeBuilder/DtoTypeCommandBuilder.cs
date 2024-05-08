@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using FrontCommon.Actor;
+using MediatR;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
 using System.Reflection;
@@ -7,13 +8,13 @@ using System.Text;
 
 namespace Common.Actor.Builder
 {
-    public class DtoTypeCommandBuilder<TDto> : DtoTypeBuilder<TDto> where TDto : class
+    public class DtoTypeCommandBuilder<TDto> : DtoTypeBuilder<TDto> where TDto : class, IRequest<bool>
     {
         protected IValidator<TDto> Validator { get; private set; }
         protected string Route { get; private set; }
         protected string BaseAddress { get; private set; }
 
-        public DtoTypeCommandBuilder(IDtoTypeCommandConfiguration<TDto> configuration)
+        public DtoTypeCommandBuilder(ICommandConfiguration<TDto> configuration)
         {
             configuration.Configure(this);
         }

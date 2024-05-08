@@ -32,11 +32,11 @@ namespace FrontCommon.Actor
         }
     }
 
-    public interface ICommandConfiguration<T> where T : IRequest<bool>
+    public interface ICommandConfiguration<T> where T : class, IRequest<bool>
     {
         void Configure(CommandTypeBuilder<T> builder);
     }
-    public interface IQueryConfiguration<T> where T : IRequest<T>
+    public interface IQueryConfiguration<T> where T : class, IRequest<T>
     {
         void Configure(QueryTypeBuilder<T> builder);
     }

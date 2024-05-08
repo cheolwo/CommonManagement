@@ -1,17 +1,18 @@
 ﻿using FrontCommon.Actor;
+using MediatR;
 
 namespace Common.Actor.Builder
 {
     public class DtoCommandBuilder : DtoBuilder
     {
-        public void ApplyConfiguration<TDto>(IDtoTypeCommandConfiguration<TDto> configuration) where TDto : class
+        public void ApplyConfiguration<TDto>(ICommandConfiguration<TDto> configuration) where TDto : class, IRequest<bool>
         {
             _configurations[typeof(TDto)] = configuration;
         }
-        public DtoTypeCommandBuilder<TDto> Set<TDto>() where TDto : class
+        public DtoTypeCommandBuilder<TDto> Set<TDto>() where TDto : class, IRequest<bool>
         {
             return new DtoTypeCommandBuilder<TDto>(_configurations.ContainsKey(typeof(TDto)) ? 
-                (IDtoTypeCommandConfiguration<TDto>)_configurations[typeof(TDto)] : null);
+                (ICommandConfiguration<TDto>)_configurations[typeof(TDto)] : null);
         }
     }
 }

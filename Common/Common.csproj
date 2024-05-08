@@ -9,13 +9,10 @@
   <ItemGroup>
     <Compile Remove="Actor\Query\**" />
     <Compile Remove="App\**" />
-    <Compile Remove="ViewModel\**" />
     <EmbeddedResource Remove="Actor\Query\**" />
     <EmbeddedResource Remove="App\**" />
-    <EmbeddedResource Remove="ViewModel\**" />
     <None Remove="Actor\Query\**" />
     <None Remove="App\**" />
-    <None Remove="ViewModel\**" />
   </ItemGroup>
 
   <ItemGroup>

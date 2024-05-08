@@ -40,7 +40,7 @@ namespace Common.Model
         //public List<문의> 문의들 { get; set; }
     }
     [NotMapped]
-    public class Center : Entity, IStorableInCenterMemory
+    public class Center : Entity
     {
         public string? UserId { get; set; }
         public string? FaxNumber { get; set; }

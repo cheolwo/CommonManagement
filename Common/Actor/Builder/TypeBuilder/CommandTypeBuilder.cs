@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Common.Actor.Builder
 {
-    public class CommandTypeBuilder<TCommand> where TCommand : IRequest<bool>
+    public class CommandTypeBuilder<TCommand> where TCommand : class, IRequest<bool>
     {
         protected IValidator<TCommand> Validator { get; private set; }
         protected string Route { get; private set; }
