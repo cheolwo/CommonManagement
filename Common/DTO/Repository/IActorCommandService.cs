@@ -1,4 +1,5 @@
 ﻿using FrontCommon.Actor;
+using MediatR;
 using Microsoft.JSInterop;
 
 namespace Common.DTO.Repository
@@ -9,7 +10,7 @@ namespace Common.DTO.Repository
         Task<HttpResponseMessage> DeleteAsync(string id);
         Task<HttpResponseMessage> UpdateAsync(T item);
     }
-    public class ActorCommandService<TDto> : IActorCommandRepository<TDto> where TDto : class
+    public class ActorCommandService<TDto> : IActorCommandRepository<TDto> where TDto : class, IRequest<bool>
     {
         protected readonly ActorCommandContext _context;
         public ActorCommandService(ActorCommandContext context)
@@ -30,7 +31,7 @@ namespace Common.DTO.Repository
             return await _context.Set<TDto>().PutAsync(item);
         }
     }
-    public class WebActorCommandService<TDto> : ActorCommandService<TDto> where TDto : class 
+    public class WebActorCommandService<TDto> : ActorCommandService<TDto> where TDto : class, IRequest<bool>
     {
         protected readonly IJSRuntime _jsRuntime;
         protected string _token;
@@ -46,7 +47,7 @@ namespace Common.DTO.Repository
         public override async Task<HttpResponseMessage> AddAsync(TDto item)
         {
             await SetAuth();
-            return await _context.Set<TDto>().PostAsync(item, _token);
+            return await _context.Set<TDto>().PostAsync(_token, item);
         }
         public override async Task<HttpResponseMessage> DeleteAsync(string id)
         {
@@ -56,7 +57,7 @@ namespace Common.DTO.Repository
         public override async Task<HttpResponseMessage> UpdateAsync(TDto item)
         {
             await SetAuth();
-            return await _context.Set<TDto>().PutAsync(item, _token);
+            return await _context.Set<TDto>().PutAsync(_token, item);
         }
     }
 }

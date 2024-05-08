@@ -2,7 +2,7 @@
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace Common.Command
+namespace Common.Command.Handlr
 {
     public class ClientCommandHandlr<TCommand> : IRequestHandler<TCommand, bool> where TCommand : IRequest<bool>
     {
@@ -11,9 +11,9 @@ namespace Common.Command
         private readonly ILogger<ClientCommandHandlr<TCommand>> _logger;
         private readonly IErrorMessageBrokerService _errorMessageBrokerService;
 
-        public ClientCommandHandlr(ICommandService<TCommand> commandService, 
-                             ITokenStorageService tokenStorageService, 
-                             ILogger<ClientCommandHandlr<TCommand>> logger, 
+        public ClientCommandHandlr(ICommandService<TCommand> commandService,
+                             ITokenStorageService tokenStorageService,
+                             ILogger<ClientCommandHandlr<TCommand>> logger,
                              IErrorMessageBrokerService errorMessageBrokerService)
         {
             _commandService = commandService;
